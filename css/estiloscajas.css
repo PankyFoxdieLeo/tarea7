@@ -1,0 +1,122 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.cajas1{
+    background-color: aqua;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas2{
+background-color: blue;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas3{
+    background-color: black;
+    color: white;
+    border: white solid 2px;
+    padding: 50px;;
+}
+.cajas4{
+    background-color: burlywood;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas5{
+    background-color: beige;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas6{
+    background-color: chartreuse;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas7 {
+    background-color: chocolate;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas8{
+    background-color: crimson;
+    border: black solid 1px;
+    padding: 50px;;
+}
+.cajas9{
+    background-color: blueviolet;
+    border: black solid 1px;
+    padding: 50px;;
+}
+
+@media (max-width: 768px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;}
+
+    .cajas1{
+        background-color: blueviolet;
+    }
+    .cajas2{
+        background-color: burlywood;
+    }
+    .cajas3{
+        background-color: white;
+        border: black solid 1px;
+        color:black
+    }
+    .cajas4{
+        ackground-color: cadetblue;}
+    .cajas5{
+        background-color: crimson;}
+    .cajas6{
+        background-color: darkolivegreen;}
+    .cajas7{
+        display: none;
+    }
+    .cajas8{
+        display: none;
+    }
+    .cajas9{
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;}
+
+    .cajas1{
+        background-color: blueviolet;
+    }
+    .cajas2{
+        background-color: burlywood;
+    }
+    .cajas3{
+        background-color: white;
+        border: black solid 1px;
+        color:black
+    }
+    .cajas4{
+        display: none;}
+    .cajas5{
+        display: none;}
+    .cajas6{
+        display: none;}
+    .cajas7{
+    display: none;}
+    .cajas8{
+        display: none;
+    }
+    .cajas9{
+        display:none ;
+    }
+}
+
+
+
